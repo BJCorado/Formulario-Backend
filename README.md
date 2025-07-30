@@ -16,7 +16,17 @@ POST /save
 Recibe los datos enviados desde el frontend en formato JSON y los guarda en el archivo Excel.
 
 Ejemplo de cuerpo (JSON)
-<pre><code>```json { "firstName": "Juan", "lastName": "Pérez", "favoriteSport": "Fútbol", "gender": "Masculino", "state": "Guatemala", "isAdult": true, "cars": ["Toyota", "Nissan"] } ```</code></pre>
+<pre><code>``````json
+{
+  "firstName": "Juan",
+  "lastName": "Pérez",
+  "favoriteSport": "Fútbol",
+  "gender": "Masculino",
+  "state": "Guatemala",
+  "isAdult": true,
+  "cars": ["Toyota", "Nissan"]
+}
+ ```</code></pre>
 ## ☁️ Despliegue en Render
 Este backend está desplegado en:
 🔗 https://formulario-backend-xns6.onrender.com
